@@ -16,7 +16,7 @@ function run() {
         let src2 = items[src];
         value.src = src2;
     }
-    }, i * 50);
+    }, i * 10);
     }
 }
 run()
