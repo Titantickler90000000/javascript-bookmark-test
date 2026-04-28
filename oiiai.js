@@ -13,13 +13,14 @@ function run() {
     const elements = document.getElementsByTagName("img");
     for (let i = 0; i < elements.length; i++) {
         let value = elements[i];
-        setTimeout(() => {
     if (value instanceof HTMLImageElement) {
         let src = Math.floor(Math.random() * items.length);
         let src2 = items[src];
+        if (!items.includes(value.src)) {
         value.src = src2;
+        }
     }
-    }, i * 10);
     }
 }
-run()
+run();
+setInterval(run, 1000);
