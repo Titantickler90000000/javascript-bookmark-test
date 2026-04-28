@@ -1,7 +1,7 @@
 javascript:
 if (true) {
-var paragraph = "I LOVE CATS";
-var headertext = "Cats are amazing.";
+var paragraph = "TICKLE ME ELMO";
+var headertext = "GAAAAAAAYYYYYYY";
   
 function run() {
   var headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6, h7, h8, h9, header');
